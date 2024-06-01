@@ -1,3 +1,23 @@
+.link {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+
+.start {
+  opacity: 0;
+}
+.end {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.main-bg {
+  height: 500px;
+  background: url("https://codingapple.com/wp-content/uploads/2022/04/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .App {
   text-align: center;
 }
